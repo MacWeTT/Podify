@@ -5,7 +5,7 @@ type Props = {}
 const Card = (props: Props) => {
   return (
     <div className='card-container font-montserrat'>
-        <div className="card w-60 bg-base-100 bg-primary p-3 border-2 border-b-4 border-r-4 border-black rounded-xl">
+        <div className="card w-60 bg-base-100 bg-primary p-3 border-2 border-b-4 border-r-4 border-black rounded-xl cursor-pointer">
             <figure><img src={require('../assets/Cardimage.png')} alt="img" className=' rounded-xl border-2 border-black-500' /></figure>
             <div className="card-body ">
                 <div className="title-row flex justify-between items-center py-2">
